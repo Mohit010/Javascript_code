@@ -14,3 +14,5 @@ function func(){
 const myfunc = func();
 myfunc();
 myfunc();
+
+// closures :- function returning function(kind of);
