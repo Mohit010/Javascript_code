@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <header class="header">
         <nav class="container nav">
             <h1 class="logo">website</h1>
             <ul class="nav-items">
-                <li><a href="">Home</a></li>
-                <li><a href="">Todo</a></li>
-                <li><a href="">Sign up</a></li>
+                <li class="nav-item"><a href="">Home</a></li>
+                <li class="nav-item"><a href="">Todo</a></li>
+                <li class="nav-item"><a href="">Sign up</a></li>
             </ul>
         </nav>
         <div class="headline">
-            <h2>Manage your task</h2>
+            <h2 id="main-heading">Manage your task <span style="display: none;">Hello</span></h2>
             <button class="btn btn-headline">Learn More</button>
         </div>
     </header>
@@ -30,7 +31,7 @@
     </section>
     <section class="section-signup container">
         <h2>Sign up</h2>
-        <form>
+        <form class="signup-form">
             <div class="form-group">
                <label for="username">Username</label>
                <input type="text" name="username" id="username">
@@ -55,7 +56,7 @@
                 <label for="about">About Yourself</label>
                 <textarea name="about" id="about" cols="30" rows="10"></textarea>
              </div>
-           <button type="submit" class="btn">Submit</button>
+           <button type="submit" class="btn signup-btn">Submit</button>    
         </form>
     </section>
 
