@@ -16,6 +16,15 @@
 
 //array Like object means => indexing , length property...
 
-const mainHeading = document.querySelector("div");
-console.log(mainHeading);
-mainHeading.style.color = "red";
+// const mainHeading = document.querySelector("div");
+// console.log(mainHeading);
+// mainHeading.style.color = "red";
+
+// const navItems = document.getElementsByTagName("a");
+// for(let i=0;i<navItems.length;i++){
+//     // console.log(navItems[i]);
+//     const navItem = navItems[i];
+//     navItem.style.backgroundColor = "#fff";
+//     navItem.style.color = "green";
+// }
+
