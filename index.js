@@ -28,3 +28,17 @@
 //     navItem.style.color = "green";
 // }
 
+const btn = document.querySelector(".btn-headline");
+// function clickme(){
+//     console.log("You clicked me...!!!!!!");
+// }
+// btn.addEventListener("click",clickme);
+btn.addEventListener("click" , () => {
+    console.log("arrow function");
+})
+const submit = document.querySelector("#sum");
+submit.addEventListener("mouseover" , ()=>{
+     submit.style.width = "1000px";
+    // console.log(submit);
+    // submit.style.color = "red";
+})
