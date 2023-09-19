@@ -33,12 +33,18 @@ const btn = document.querySelector(".btn-headline");
 //     console.log("You clicked me...!!!!!!");
 // }
 // btn.addEventListener("click",clickme);
-btn.addEventListener("click" , () => {
-    console.log("arrow function");
-})
-const submit = document.querySelector("#sum");
-submit.addEventListener("mouseover" , ()=>{
-     submit.style.width = "1000px";
-    // console.log(submit);
-    // submit.style.color = "red";
+// btn.addEventListener("click" , () => {
+//     console.log("arrow function");
+// })
+// const submit = document.querySelector("#sum");
+// submit.addEventListener("mouseover" , ()=>{
+//      submit.style.width = "1000px";
+//     // console.log(submit);
+//     // submit.style.color = "red";
+// })
+
+const body = document.body;
+
+body.addEventListener("keypress",(a) =>{
+    console.log(a.key);
 })
