@@ -1,4 +1,4 @@
-
+//then always return promise...
 function f1(){
     return new Promise((a,b) =>{
         const bool = true;
