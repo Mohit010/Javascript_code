@@ -51,18 +51,33 @@
 //         console.log(response);
 //     })
 
+//JSON -> Javascript object notation....
 
 const URL = "https://jsonplaceholder.typicode.com/posts";
 
-fetch(URL)
- .then(response =>{
-    console.log(response);
- })
+// fetch(URL)
+//  .then(response =>{
+//     console.log(response);
+//  })
 
 
+function getPosts(){
+    // console.log(fetch(URL));
+    const a = fetch(URL);
+    // console.log();
+    return a.json();
+    // return a;
+    // return Promise.resolve("Success");
+}
+// console.log(getPosts());
+// getPosts() .then(a , ()=>{
+//     console.log(a);
+// })
 
-
-
+getPosts() 
+.then(data =>{
+    console.log(data)
+})
 
 
 
